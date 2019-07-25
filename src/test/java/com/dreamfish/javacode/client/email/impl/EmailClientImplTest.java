@@ -1,6 +1,7 @@
 package com.dreamfish.javacode.client.email.impl;
 
 import freemarker.template.TemplateException;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +19,7 @@ import java.util.Map;
  * @description: com.dreamfish.javacode.client.email.impl
  * @date:19-7-25 下午2:09
  */
+@Ignore
 @SpringBootTest
 @RunWith(SpringJUnit4ClassRunner.class)
 public class EmailClientImplTest {
